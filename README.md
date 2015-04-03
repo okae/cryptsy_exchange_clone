@@ -20,7 +20,8 @@ i do installation service + securisation if you need
 contact:
 adytech2010 at the giant search engine  .com
 
-
+dont forget to run cron
+* * * * * /usr/bin/php /var/www/crypto-maniac.com/public_html/includes/checkDepositCron.php > /tmp/cron.log 2>&1
 
 #License
 
